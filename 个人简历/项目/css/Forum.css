@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{
+    background: #EDF1F2;
+}
+
+/*=======================banner start*/
+.banner{
+    margin-top: 100px;
+    border-bottom: 1px solid #dee5e7;
+    background: #F6F8F8;
+}
+.banner .container  .row .mspan{
+    font-size: 13px;
+    color: #98a6ad;
+    margin-top: 10px;
+}
+.banner .container .row .mspan a{
+    color: black;
+}
+.banner .container .row .col-xs-6{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner .container .row .input-group ,.banner .container .row .col-xs-2{
+    margin-top: 25px;
+}
+/*===============================banner end*/
+/*-==========================content start*/
+.content{
+    background: #EDF1F2;
+}
+.content .general-content{
+    background: #fff;
+    margin: 20px 0;
+}
+.content p{
+    margin-bottom: 0;
+}
+.content a:hover{
+    text-decoration: none;
+}
+.content .col-xs-12{
+    padding: 10px 15px;
+}
+.content .col-xs-12 h3{
+    margin: 0 0 5px ;
+}
+
+.content .col-md-7 img{
+    max-width: 40px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.content .col-md-3 img{
+    max-width: 34px;
+    margin: 3px 10px 0 0;
+    border-radius: 4px;
+}
+.content .col-md-3 span{
+    font-size: 1rem;
+}
+
+.content .col-md-2{
+    font-size: 1.4rem;
+    color: #7DA7CC;
+}
+.content .table{
+    margin-bottom: 0;
+}
+.content .table + div{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+}
+/*-==========================content end*/

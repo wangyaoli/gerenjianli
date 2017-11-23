@@ -1,0 +1,202 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.wd{
+    width: 1251px;
+    margin: 0 auto;
+}
+.bg{
+    background: #d6d6d6;
+}
+.bo{
+    background: #7d7d7d;
+}
+
+.cl{
+    color: #000000;
+}
+.co{
+    color: #ffffff;
+}
+.cr{
+    color: #838383;
+}
+.fs{
+    font-size: 17px;
+}
+.bs{
+    border: 1px solid #999899;
+}
+.fi{
+    font-size: 29px;
+}
+.f22{
+    font-size: 22px;
+}
+.marginBottom12{
+    margin-bottom: 12px;
+}
+/*-------------------------header start*/
+.header .subnav{
+    border-bottom: 1px solid #cccccc;
+}
+.header .subnav img{
+    width: 381px;
+    height: 176px;
+}
+.header .Newswd{
+    margin: 11px 30px;
+}
+.header .search_box{
+    height: 138px;
+    background: url("../img/女子学院_03.jpg");
+}
+.header form{
+    width: 243px;
+    height: 37px;
+    background: #595758;
+    margin-top: 85px;
+    margin-right:8px;
+}
+.header form input{
+   margin:  5px 0 5px 16px;
+}
+.header form input:first-of-type{
+    width: 193px;
+    height: 25px;
+}
+.header form input:last-of-type{
+    margin: 7px 0 5px 0;
+}
+
+/*-------------------------header end*/
+/*-------------------------section start*/
+/*section_top*/
+.section_top{
+   background:  #595758;
+}
+
+.section .nav ul li{
+    margin: 15px 31px;
+}
+.section .nav img{
+    width: 1251px;
+    height: 450px;
+}
+/*section_center*/
+.section .section_center .press{
+    padding: 33px 0;
+}
+.section .section_center .box .box_img img{
+    width: 467px;
+    height: 314px;
+}
+.section .section_center .box .box_img p{
+    margin: 16px 10px;
+}
+.section .section_center .box .main h3{
+    margin: 20px 30px;
+    color: red;
+    font-size: 22px;
+}
+.section .section_center .box .main ul{
+    border-top: 1px solid #808080;
+    margin-left: 30px;
+}
+.section .section_center .box .main ul li{
+    margin: 30px 0;
+}
+.section .section_center .box .main ul li img{
+    margin-top: 3px;
+    padding-right: 10px;
+}
+.section .section_center .box .main ul li p{
+    font-size: 18px;
+
+}
+/*.section_bottom*/
+.section .section_bottom{
+    width: 1251px;
+    height: 612px ;
+
+}
+.section_bottom .notice{
+    width: 637px;
+
+}
+.section_bottom .notice h3,.section_bottom .notice img{
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+.section_bottom .inform img{
+
+    margin: 0 0 19px 0;
+}
+.section_bottom .inform li p{
+    margin: 7px 0 0 23px;
+}
+.section_bottom .content{
+    width: 614px;
+}
+.section_bottom .content h3{
+    margin: 54px 344px 20px 150px;
+}
+
+.content .menu .left{
+    width: 464px;
+    height: 438px;
+
+}
+.content .left a{
+    border: 1px solid #bbb;
+}
+.content .left a:hover{
+    background: #9e0001;
+    color: white;
+}
+.content .left .sWidth{
+    width: 227px;
+    height: 72px;
+    line-height: 69px;
+    text-align: center;
+    vertical-align: top;
+    background: #03a9f4;
+}
+.bottom{
+    width: 463px;
+    height: 74px;
+    background: #f08337;
+    margin-left: 76px;
+    margin-top: 18px;
+}
+.bottom h4{
+    padding: 26px 56px 25px 83px ;
+}
+.bottom select{
+    margin-top: 26px;
+    padding-left: 18px;
+}
+
+
+/*-----------------------section end*/
+/*------------------------footer start*/
+.footer_left img{
+    padding: 19px 0 0 12px;
+}
+.footer_left p{
+    color: white;
+    line-height: 20px;
+    margin: 20px 0 0 25px;
+}
+
+.footer_right p{
+    color: white;
+    line-height: 20px;
+    padding: 20px 0 0 23px;
+    border-left: 1px solid white;
+}
+/*----------------------footer end*/
+
+

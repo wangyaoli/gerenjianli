@@ -1,0 +1,184 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #EDF1F2;
+}
+/*=========================banner start================*/
+.banner{
+    margin-top: 100px;
+    background: url("../img/search-bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner h1{
+    margin-top: 51px;
+    margin-bottom: 31px;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+    font-weight: 300;
+}
+.banner h1 em{
+    font-weight: bolder;
+    font-style: normal;
+}
+.banner .btn{
+    border-radius: 0;
+}
+.banner a.btn:first-of-type{
+    background: #27c24c;
+    color: white;
+}
+.banner .btn + .btn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+}
+.banner a.btn:first-of-type,.banner .btn + .btn{
+    margin-bottom: 55px;
+}
+
+.banner .btn + .btn:hover{
+  border-color: #2baadf;
+    color: #2baadf;
+}
+.banner input{
+    background: #f2eede;
+    height: 45px;
+    padding: 10px 15px;
+}
+.banner input:focus,.banner input,.banner button:focus,.banner button{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.banner button{
+    padding: 12px;
+    height: 45px;
+    background: #EDF1F2;
+    border-radius: 0 4px 4px 0 !important;
+}
+.banner .row form{
+    margin-bottom: 50px;
+}
+/*===========================banner end==================*/
+
+/*=======================content start================*/
+.content figure{
+    background: #FFFFFF;
+}
+.content figcaption{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.content figcaption h3{
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+
+.content figcaption h3 a{
+    color: #000000;
+}
+.content figcaption h3 a:hover{
+    text-decoration: none;
+}
+.content figcaption .media-body + p{
+    line-height: 1.4;
+    height: 68px;
+}
+.content figcaption img{
+    border-radius: 4px;
+}
+ .content .star{
+    width: 86px;
+     height: 16px;
+    background: url("../img/star-off.png") repeat-x;
+     margin-top: 9px;
+ }
+ .content .col-md-3{
+     padding: 0 10px 15px;
+ }
+.content h4{
+    font-size: 1.3rem;
+    text-overline: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;/*强制文本在一行显示*/
+}
+@media (max-width: 768px) {
+    .content figure > a img{
+        width: 100%!important;
+    }
+}
+.content figure figcaption div:last-of-type .btn-success{
+    margin-bottom: 10px;
+}
+.content .row h2{
+    color: #58666e;
+}
+.content .row h2 a{
+    margin-top: 10px;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.content .row .chart > div{
+    background: white;
+    padding: 5px;
+}
+.content .row .chart > div img{
+    padding-top: 10px;
+}
+.content .row .chart > div a img{
+   margin-right: 10px;
+}
+.content .row .chart div:last-of-type span{
+    margin-top: 9px;
+}
+.content .row .chart div:first-of-type a:last-of-type{
+    color: #98a6ad;
+    text-decoration: none;
+}
+.content .row .chart div:first-of-type a:last-of-type:hover{
+    color: black;
+}
+.content .row .myfigure h3 ,.content .row .myfigure div:last-of-type p{
+    margin: 0;
+}
+.content .row .myfigure p{
+    font-size: 17px;
+    margin: 10px 0 ;
+}
+.content .row .myfigure p a{
+    color: black;
+    text-decoration: none;
+}
+.content .row .myfigure div:last-of-type{
+    font-size: 12px;
+    color: #cccccc;
+}
+.content .row .myfigure div:last-of-type p{
+    margin-bottom: 10px;
+}
+.content .row .myfigure{
+    overflow: hidden;
+}
+.content .row .myfigure img{
+    transform: scale(1);
+    transition: .3s;
+
+}
+.content .row .myfigure:hover img{
+
+    transform: scalex(1.1);
+}
+
+@media (min-width: 768px){
+    .col-md-6 {
+        width: 50%;
+    }
+}
+/*========================content end=============*/

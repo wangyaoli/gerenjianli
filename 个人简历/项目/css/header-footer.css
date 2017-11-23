@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/*===============header start========================*/
+.header .navbar{
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+}
+.mainNavBar{
+    background: #1c2b36;
+}
+.mainNavBar img{
+    max-width: 127px;
+}
+
+.mainNavBar .nav > li > a:hover,.mainNavBar .nav > li > a:focus,.mainNavBar .nav > .active > a:hover{
+    background: #16232D !important;
+    color: #fff !important;
+}
+.mainNavBar .nav > li > a ,.mainNavBar .nav a.dropdown-toggle:focus{
+    color: #869FB1 !important;
+}
+.mainNavBar .dropdown-menu a{
+    background: #FFF;
+    color: #323232;
+}
+.mainNavBar .dropdown-menu a:hover{
+    background: #ECF0F1 !important;
+}
+
+.mainNavBar .login{
+    background: none;
+    color: #FFFFFF;
+}
+.mainNavBar .dropdown-menu{
+    animation: inFadeDown .5s;
+    -webkit-animation: inFadeDown .5s;
+}
+@keyframes inFadeDown {
+    0%{transform: transLateY(-50px);opacity: 0}
+    100%{transform: transLateY(0px);opacity: 1}
+}
+ /*兼容性*/
+@-webkit-keyframes inFadeDown {
+    0%{transform: transLateY(-50px);opacity: 0}
+    100%{transform: transLateY(0px);opacity: 1}
+}
+.mainNavBar .login:hover{
+    background: #131E25;
+}
+.mainNavBar .navbar-toggle{
+    border: 0;
+    outline: 0;
+    background: none;
+}
+.mainNavBar .navbar-toggle i{
+    background: #58666E !important;
+    width: 17px;
+    height: 2px;
+
+}
+.mainNavBar .navbar-toggle .icon-bar + .icon-bar{
+    margin-top: 3px;
+}
+.mainNavBar .navbar-toggle:hover ,.mainNavBar .navbar-toggle:focus{
+    background: none;
+}
+.mainNavBar .navbar-toggle:hover i{
+    background: #2A6496 !important;
+}
+
+.subNavBar{
+    background: #FFFFFF;
+}
+.subNavBar .open > a {
+    background: #f6f8f8!important;
+}
+.subNavBar form{
+    width: 21%;
+    padding-right: 0;
+}
+.subNavBar input ,.subNavBar button{
+    background: #EDF1F2;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+.subNavBar input:focus{
+     box-shadow: none;
+ }
+.subNavBar button:focus{
+   outline: 0!important;
+}
+
+
+
+
+.subNavBar button{
+    height: 34px;
+}
+/*===============header end==========================*/
+/*===============footer start==========================*/
+/*.footer{*/
+    /*margin-top: 200px;*/
+/*}*/
+.footer .top{
+    background: #1c2b36;
+}
+.footer .top h5{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #fff;
+}
+.footer .top h5 span{
+    font-weight: 100;
+}
+/*兄弟选择器：~选择相邻的所有相同的元素  +选择相邻的一个元素*/
+.footer .top h5 ~ a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+.footer .top h5 ~ a:first-of-type{
+    background: rgba(58,68,152,.8);
+}
+.footer .top h5 ~ a:first-of-type:hover{
+    background: rgba(58,68,152,1);
+}
+.footer .top h5 ~ a:nth-of-type(2){
+    background: rgba(43,170,223,.8);
+}
+.footer .top h5 ~ a:nth-of-type(2):hover{
+    background: rgba(43,170,223,1);
+}
+.footer .top h5 ~ a:nth-of-type(3){
+    background: rgba(204,56,46,.8);
+}
+.footer .top h5 ~ a:nth-of-type(3):hover{
+    background: rgba(204,56,46,1);
+}
+.footer .top h5 ~ a:nth-of-type(4){
+    background: rgba(202,31,40,.8);
+}
+.footer .top h5 ~ a:nth-of-type(4):hover{
+    background: rgba(202,31,40,1);
+}
+.footer .top h5 ~ a:last-of-type{
+    background: rgba(242,103,34,.8);
+}
+.footer .top h5 ~ a:last-of-type:hover{
+    background: rgba(242,103,34,1);
+}
+.footer .top h5{
+    margin-bottom: 20px;
+}
+.footer .top h5 + ul{
+    padding-left: 0;
+}
+.footer .top h5 + ul a ,.footer .bottom a{
+    color: #86ABBB;
+}
+.footer .top h5 + ul a:hover,.footer .bottom a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer .bottom{
+    height: 75px;
+    background: #263845;
+}
+.footer .bottom .text-right{
+    color: white;
+}
+.footer .bottom .container .row{
+    margin-top: 35px;
+}
+/*===============footer end==========================*/
+
+
+
+
+

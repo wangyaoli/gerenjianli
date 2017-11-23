@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.banner{
+    background: url("../img/money-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.content1{
+    background: white;
+}
+.content1 .col-md-7,.col-md-5{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.content1 .col-md-7 p{
+    margin-top: 30px;
+}
+
+.content2 .col-md-5 i{
+    display: block;
+    font-size: 150px;
+    margin-right: 30px;
+    text-align: center;
+
+}
+.content2 .col-md-7,.col-md-5{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.content3 .col-md-5 img{
+margin-right: 80px;
+}
+.content3{
+    background: white;
+}
+.content3 .col-md-7,.col-md-5{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.content4 .col-md-8 p{
+    margin: 30px 0 40px 0 ;
+}
+.content4 .col-md-8,.col-md-4{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.content5 .col-md-4 img{
+     margin-top: 10px;
+ }
+
+.content5 {
+    background: white;
+}

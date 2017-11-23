@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background: #EDF1F2;
+}
+
+/*=========================banner start================*/
+.banner{
+    margin-top: 100px;
+    background: url("../img/search-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.banner h1 ,.banner p{
+    margin-top: 51px;
+    margin-bottom: 31px;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+    font-weight: 300;
+}
+/*=========================banner end ================*/
+/*=========================content start ================*/
+.content figure{
+    background: #FFFFFF;
+}
+.content figcaption{
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.content figcaption h3{
+    margin: 0 0 0 10px;
+    font-size: 16px;
+}
+.content .container .row{
+    margin: 32px 0;
+
+
+}
+.content .container div:last-of-type .my{
+    margin-bottom: 45px;
+}
+.content .container div:last-of-type .my a{
+    margin-bottom: 10px;
+}
+/*=========================content end ================*/
